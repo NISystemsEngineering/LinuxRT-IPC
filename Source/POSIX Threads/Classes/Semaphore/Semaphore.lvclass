@@ -114,14 +114,50 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 		</Item>
-		<Item Name="Semaphore Timed Wait.vi" Type="VI" URL="../Public VIs/Semaphore Timed Wait.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)S!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!)1JU;7VF:#"P&gt;81`!!"/1(!!(A!!*R.14V.*7#"5;(*F972T,GRW&lt;'FC%6.F&lt;7&amp;Q;'^S:3ZM&gt;G.M98.T!"V14V.*7#"5;(*F972T,GRW&lt;'FC/F.F&lt;7&amp;Q;'^S:1":!0%!!!!!!!!!!R.14V.*7#"5;(*F972T,GRW&lt;'FC%6.F&lt;7&amp;Q;'^S:3ZM&gt;G.M98.T$8*F:G6S:7ZD:3ZD&gt;'Q!(5"Q!#!!!1!'!!V4:7VB='BP=G5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!#5!)!!.T:7-!#U!)!!2O=W6D!!"2!0%!!!!!!!!!!BB-;7ZV?#"36#"6&gt;'FM;82J:8-O&lt;(:M;7)0&gt;'FN:8.Q:7.@.D1O9X2M!#"!5!!#!!E!#B"B9H.P&lt;(6U:3"U;7VF&lt;X6U!!":!0%!!!!!!!!!!R.14V.*7#"5;(*F972T,GRW&lt;'FC%6.F&lt;7&amp;Q;'^S:3ZM&gt;G.M98.T$8*F:G6S:7ZD:3ZD&gt;'Q!(5"Q!#!!!1!'!!R4:7VB='BP=G5A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!=!"!!%!!1!"!!)!!1!#Q!-!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!1!!!!!!%!$1!!!!!</Property>
+		<Item Name="Semaphore Timed Wait (absolute seconds).vi" Type="VI" URL="../Public VIs/Semaphore Timed Wait (absolute seconds).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(O!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!)1JU;7VF:#"P&gt;81`!!"/1(!!(A!!*R.14V.*7#"5;(*F972T,GRW&lt;'FC%6.F&lt;7&amp;Q;'^S:3ZM&gt;G.M98.T!"V14V.*7#"5;(*F972T,GRW&lt;'FC/F.F&lt;7&amp;Q;'^S:1":!0%!!!!!!!!!!R.14V.*7#"5;(*F972T,GRW&lt;'FC%6.F&lt;7&amp;Q;'^S:3ZM&gt;G.M98.T$8*F:G6S:7ZD:3ZD&gt;'Q!(5"Q!#!!!1!'!!V4:7VB='BP=G5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!)5!+!"JB9H.P&lt;(6U:3"U;7VF&lt;X6U)#BT:7.P&lt;G2T+1!!71$R!!!!!!!!!!-45%^436AA6'BS:7&amp;E=SZM&gt;GRJ9B&amp;4:7VB='BP=G5O&lt;(:D&lt;'&amp;T=QVS:7:F=G6O9W5O9X2M!"V!=!!A!!%!"A!-5W6N98"I&lt;X*F)'FO!!"5!0!!$!!$!!1!"1!(!!1!"!!%!!1!#!!%!!E!#A-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!3!!!!%!!!!!!"!!M!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">34082832</Property>
+		</Item>
+		<Item Name="Semaphore Timed Wait (absolute timespec).vi" Type="VI" URL="../Public VIs/Semaphore Timed Wait (absolute timespec).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)]!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!)1JU;7VF:#"P&gt;81`!!"/1(!!(A!!*R.14V.*7#"5;(*F972T,GRW&lt;'FC%6.F&lt;7&amp;Q;'^S:3ZM&gt;G.M98.T!"V14V.*7#"5;(*F972T,GRW&lt;'FC/F.F&lt;7&amp;Q;'^S:1":!0%!!!!!!!!!!R.14V.*7#"5;(*F972T,GRW&lt;'FC%6.F&lt;7&amp;Q;'^S:3ZM&gt;G.M98.T$8*F:G6S:7ZD:3ZD&gt;'Q!(5"Q!#!!!1!'!!V4:7VB='BP=G5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!#5!)!!.T:7-!#U!)!!2O=W6D!!"&lt;!0%!!!!!!!!!!BB-;7ZV?#"36#"6&gt;'FM;82J:8-O&lt;(:M;7)0&gt;'FN:8.Q:7.@.D1O9X2M!#J!5!!#!!E!#BNB9H.P&lt;(6U:3"U;7VF&lt;X6U)#BU;7VF=X"F9SE!71$R!!!!!!!!!!-45%^436AA6'BS:7&amp;E=SZM&gt;GRJ9B&amp;4:7VB='BP=G5O&lt;(:D&lt;'&amp;T=QVS:7:F=G6O9W5O9X2M!"V!=!!A!!%!"A!-5W6N98"I&lt;X*F)'FO!!"5!0!!$!!$!!1!"1!(!!1!"!!%!!1!#!!%!!M!$!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!%!!!!!!"!!U!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">269230096</Property>
+		</Item>
+		<Item Name="Semaphore Timed Wait (relative nanoseconds).vi" Type="VI" URL="../Public VIs/Semaphore Timed Wait (relative nanoseconds).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(S!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!)1JU;7VF:#"P&gt;81`!!"/1(!!(A!!*R.14V.*7#"5;(*F972T,GRW&lt;'FC%6.F&lt;7&amp;Q;'^S:3ZM&gt;G.M98.T!"V14V.*7#"5;(*F972T,GRW&lt;'FC/F.F&lt;7&amp;Q;'^S:1":!0%!!!!!!!!!!R.14V.*7#"5;(*F972T,GRW&lt;'FC%6.F&lt;7&amp;Q;'^S:3ZM&gt;G.M98.T$8*F:G6S:7ZD:3ZD&gt;'Q!(5"Q!#!!!1!'!!V4:7VB='BP=G5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!*5!%!"ZS:7RB&gt;'FW:3"U;7VF&lt;X6U)#BO97ZP=W6D&lt;WZE=SE!!&amp;E!]1!!!!!!!!!$%V"05UF9)&amp;2I=G6B:(-O&lt;(:M;7)25W6N98"I&lt;X*F,GRW9WRB=X-.=G6G:8*F&lt;G.F,G.U&lt;!!&gt;1(!!)!!"!!9!$&amp;.F&lt;7&amp;Q;'^S:3"J&lt;A!!6!$Q!!Q!!Q!%!!5!"Q!%!!1!"!!%!!A!"!!*!!I$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!"!!!!!!!1!,!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">34082832</Property>
+		</Item>
+		<Item Name="Semaphore Timed Wait (relative seconds).vi" Type="VI" URL="../Public VIs/Semaphore Timed Wait (relative seconds).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(O!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!)1JU;7VF:#"P&gt;81`!!"/1(!!(A!!*R.14V.*7#"5;(*F972T,GRW&lt;'FC%6.F&lt;7&amp;Q;'^S:3ZM&gt;G.M98.T!"V14V.*7#"5;(*F972T,GRW&lt;'FC/F.F&lt;7&amp;Q;'^S:1":!0%!!!!!!!!!!R.14V.*7#"5;(*F972T,GRW&lt;'FC%6.F&lt;7&amp;Q;'^S:3ZM&gt;G.M98.T$8*F:G6S:7ZD:3ZD&gt;'Q!(5"Q!#!!!1!'!!V4:7VB='BP=G5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!)5!+!"JS:7RB&gt;'FW:3"U;7VF&lt;X6U)#BT:7.P&lt;G2T+1!!71$R!!!!!!!!!!-45%^436AA6'BS:7&amp;E=SZM&gt;GRJ9B&amp;4:7VB='BP=G5O&lt;(:D&lt;'&amp;T=QVS:7:F=G6O9W5O9X2M!"V!=!!A!!%!"A!-5W6N98"I&lt;X*F)'FO!!"5!0!!$!!$!!1!"1!(!!1!"!!%!!1!#!!%!!E!#A-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!3!!!!%!!!!!!"!!M!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">269230096</Property>
+		</Item>
+		<Item Name="Semaphore Timed Wait.vi" Type="VI" URL="../Public VIs/Semaphore Timed Wait.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0*'J77A!!%!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
 		<Item Name="Semaphore Try Wait.vi" Type="VI" URL="../Public VIs/Semaphore Try Wait.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(6!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!)2*T:7VB='BP=G5A&lt;G^U)(.F&gt;$]!!%Z!=!!?!!!H%V"05UF9)&amp;2I=G6B:(-O&lt;(:M;7)25W6N98"I&lt;X*F,GRW9WRB=X-!(6"05UF9)&amp;2I=G6B:(-O&lt;(:M;7)[5W6N98"I&lt;X*F!&amp;E!]1!!!!!!!!!$%V"05UF9)&amp;2I=G6B:(-O&lt;(:M;7)25W6N98"I&lt;X*F,GRW9WRB=X-.=G6G:8*F&lt;G.F,G.U&lt;!!&gt;1(!!)!!"!!9!$6.F&lt;7&amp;Q;'^S:3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1":!0%!!!!!!!!!!R.14V.*7#"5;(*F972T,GRW&lt;'FC%6.F&lt;7&amp;Q;'^S:3ZM&gt;G.M98.T$8*F:G6S:7ZD:3ZD&gt;'Q!(5"Q!#!!!1!'!!R4:7VB='BP=G5A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!=!"!!%!!1!"!!)!!1!"!!*!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!!!!%!#A!!!!!</Property>

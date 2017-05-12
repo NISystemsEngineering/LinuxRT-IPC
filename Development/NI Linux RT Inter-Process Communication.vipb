@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-05-05 11:50:23" Creator="Ryan" Comments="" ID="d393fade5f1a8ff218e663345d15fe82">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-05-12 13:59:02" Creator="Ryan" Comments="" ID="a3f127c7633d3526e6e867090a36234f">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NI_Linux_RT_IPC</Package_File_Name>
     <Library_Version>1.0.0.7</Library_Version>
@@ -255,7 +255,7 @@
         <Path>..\POSIX Threads</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0986D66DA40116A62F641A4E13C64E1D</GUID>
+      <GUID>DB5F6C3C5CFAEB2CA4A2AE64BFD3EF72</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -416,7 +416,7 @@
         <Path>..\Templates</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4956C9807CCADBF31A8CF6DC4BF799D2</GUID>
+      <GUID>8E6FE2F69F55758FC46EE555E8E18EC4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -493,7 +493,7 @@
         <Path>..\Barrier</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C7B58434AE24DACF642E62D057DA5D7</GUID>
+      <GUID>20F0CE982D4654EBF2BC9A64D68882DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -542,7 +542,7 @@
         <Path>..\Source\Shared Memory\Templates\Initialize Shared Memory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0E2EE79338CA1A5424D6A2131401BA61</GUID>
+      <GUID>BD7C3798722FB3B4B4E17665425883DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -703,7 +703,7 @@
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EAA001072A77588AC0D18424B3FD10D4</GUID>
+      <GUID>980AE909BFF82BF40A7B6239F0C34D33</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -892,7 +892,7 @@
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C5A4C45C87EBADFA74168D2938CF7D9</GUID>
+      <GUID>40BD72078307FFA32AB63B325FE8E447</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1053,7 +1053,7 @@
         <Path>..\Source\POSIX Threads\Classes\Semaphore\Public VIs\Semaphore Timed Wait.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8D02B104699A67CD8895FCBAECB5F81</GUID>
+      <GUID>7E6B060A0C8A1DF1BA01E97B711761D8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1172,7 +1172,7 @@
         <Path>..\Source\POSIX Threads\Classes\Barrier\Public VIs\Barrier Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F55F9E35BED32F239376A23758243D8</GUID>
+      <GUID>9A38BC28163941752EAF6F3319CC9CFA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1291,7 +1291,7 @@
         <Path>..\Source\POSIX Threads\Classes\Barrier Attr\Public VIs\Barrier Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B09AACBC621ECD592AB2D95E5D21AFA3</GUID>
+      <GUID>A7EC1FFCA1E9264896787063D02A0E53</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1494,7 +1494,7 @@
         <Path>..\Source\POSIX Threads\Classes\Mutex Attr\Public VIs\Mutex Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E512AE3E19BEC57B2A289B43811621B3</GUID>
+      <GUID>A71D9B66466DBF2221E028A97966548A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1641,7 +1641,7 @@
         <Path>..\Source\POSIX Threads\Classes\Cond Attr\Public VIs\Cond Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E4B77D7F0B67DA17B9B0E64634926BED</GUID>
+      <GUID>B70FA425D1510530B4FCB562E3A10401</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

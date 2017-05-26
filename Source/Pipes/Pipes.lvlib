@@ -23,10 +23,13 @@
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="fcntl-linux file modes.ctl" Type="VI" URL="../Controls/fcntl-linux file modes.ctl"/>
+		<Item Name="functions.ctl" Type="VI" URL="../Controls/functions.ctl"/>
 		<Item Name="permissions group.ctl" Type="VI" URL="../Controls/permissions group.ctl"/>
 		<Item Name="permissions.ctl" Type="VI" URL="../Controls/permissions.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Error Handler.vi" Type="VI" URL="../SubVIs/Error Handler.vi"/>
+		<Item Name="Number to Errno.vi" Type="VI" URL="../SubVIs/Number to Errno.vi"/>
 		<Item Name="OR flags.vi" Type="VI" URL="../SubVIs/OR flags.vi"/>
 		<Item Name="permission cluster to mode_t.vi" Type="VI" URL="../SubVIs/permission cluster to mode_t.vi"/>
 	</Item>

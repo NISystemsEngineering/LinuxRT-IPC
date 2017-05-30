@@ -95,19 +95,19 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Pipes" Type="Folder">
-			<Item Name="Pipes.lvlib" Type="Library" URL="../../Source/Pipes/Pipes.lvlib"/>
-		</Item>
-		<Item Name="POSIX Threads" Type="Folder">
-			<Item Name="POSIX Threads.lvlib" Type="Library" URL="../../Source/POSIX Threads/POSIX Threads.lvlib"/>
-		</Item>
-		<Item Name="Shared Memory" Type="Folder">
-			<Item Name="Templates" Type="Folder">
+		<Item Name="Templates" Type="Folder">
+			<Item Name="Shared Memory" Type="Folder">
 				<Item Name="Basic Scalar Write-Read.vi" Type="VI" URL="../../Source/Shared Memory/Templates/Basic Scalar Write-Read.vi"/>
 				<Item Name="Initialize Shared Memory.vi" Type="VI" URL="../../Source/Shared Memory/Templates/Initialize Shared Memory.vi"/>
 			</Item>
-			<Item Name="Shared Memory.lvlib" Type="Library" URL="../../Source/Shared Memory/Shared Memory.lvlib"/>
 		</Item>
+		<Item Name="Test VIs" Type="Folder">
+			<Item Name="Pipes" Type="Folder">
+				<Item Name="loopback cluster.vi" Type="VI" URL="../Testing/Pipes/loopback cluster.vi"/>
+				<Item Name="pipe writer.vi" Type="VI" URL="../Testing/Pipes/pipe writer.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Linux RT IPC.lvlib" Type="Library" URL="../../Source/Linux RT IPC.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

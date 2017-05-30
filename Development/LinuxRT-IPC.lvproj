@@ -67,6 +67,9 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Pipes" Type="Folder">
+			<Item Name="Pipes.lvlib" Type="Library" URL="../../Source/Pipes/Pipes.lvlib"/>
+		</Item>
 		<Item Name="POSIX Threads" Type="Folder">
 			<Item Name="POSIX Threads.lvlib" Type="Library" URL="../../Source/POSIX Threads/POSIX Threads.lvlib"/>
 		</Item>

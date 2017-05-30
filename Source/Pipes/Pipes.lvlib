@@ -29,7 +29,6 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Error Handler.vi" Type="VI" URL="../SubVIs/Error Handler.vi"/>
-		<Item Name="Number to Errno.vi" Type="VI" URL="../SubVIs/Number to Errno.vi"/>
 		<Item Name="OR flags.vi" Type="VI" URL="../SubVIs/OR flags.vi"/>
 		<Item Name="permission cluster to mode_t.vi" Type="VI" URL="../SubVIs/permission cluster to mode_t.vi"/>
 	</Item>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-05-26 00:33:32" Creator="Ryan" Comments="" ID="8396d78f38a4dafa0e73fb90182091a1">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-05-30 16:20:36" Creator="Ryan" Comments="" ID="865ca4ec93fd5f81b23cd1678de790f4">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NI_Linux_RT_IPC</Package_File_Name>
-    <Library_Version>1.1.0.7</Library_Version>
+    <Library_Version>1.2.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_ni_linux_rt_errno &gt;=1.0.0.6</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_ni_linux_rt_utilities &gt;=1.0.0.7</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_ni_linux_rt_errno &gt;=1.1.1.8</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_ni_linux_rt_utilities &gt;=1.1.0.8</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -28,14 +28,17 @@
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
-    <VI_Package_Configuration_File>NI Linux RT Inter-Process Communication.vipc</VI_Package_Configuration_File>
+    <VI_Package_Configuration_File>NI Linux RT IPC.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
       <Description>This library provides LabVIEW with access to common inter-process communication (IPC) mechanisms available in Linux-based operating systems. These mechanisms can be used shared data, synchronize threads, etc. between a LabVIEW application and other parallel processes.</Description>
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://forums.ni.com/t5/Reference-Design-Content/NI-Linux-RT-Libraries/ta-p/3622838</URL>
-      <Release_Notes>1.1.0:
+      <Release_Notes>1.2.0:
+Updated error handling to match Errno package 1.1.1
+
+1.1.0:
 Added Pipes</Release_Notes>
     </Description>
     <Destinations>
@@ -162,7 +165,7 @@ Added Pipes</Release_Notes>
         <Path>Builds</Path>
       </Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath/>
+    <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -288,7 +291,7 @@ Added Pipes</Release_Notes>
         <Path>..\Pipes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E36306D6BB99FD16D60AF006D4092394</GUID>
+      <GUID>CBBB7DD60F3840AC4006BBF617585985</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -449,7 +452,7 @@ Added Pipes</Release_Notes>
         <Path>..\Templates</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>380DEA889B2BDBF03102B52666E33753</GUID>
+      <GUID>0B2DA8C166D0E0E4FB59B3332AC64487</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -526,7 +529,7 @@ Added Pipes</Release_Notes>
         <Path>..\Barrier</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA2309FF4F9C0F913E99D319D0A4FA64</GUID>
+      <GUID>6ECC3AC1E3CA0B4EEA83C68B6737E21A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -575,7 +578,7 @@ Added Pipes</Release_Notes>
         <Path>..\Source\Shared Memory\Templates\Initialize Shared Memory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>087EE07D316077900EF0AA3F1D04754E</GUID>
+      <GUID>4C294CB3526FB79E0D674BC5DAE168D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -736,7 +739,7 @@ Added Pipes</Release_Notes>
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F421BF38BC23BABC0DF905352B3F106</GUID>
+      <GUID>544CDD6966332955D6AFC498B693DE96</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -925,7 +928,7 @@ Added Pipes</Release_Notes>
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D08D21D180A1533FD6601C05B417B2E</GUID>
+      <GUID>1C636CD10A27B8A4E1493F6AD5DADBCD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1086,7 +1089,7 @@ Added Pipes</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Semaphore\Public VIs\Semaphore Timed Wait.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D52675D91B9A6C91E725C15C5B550E9</GUID>
+      <GUID>D76328D055C0702838621A1533DB1859</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1205,7 +1208,7 @@ Added Pipes</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Barrier\Public VIs\Barrier Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFC7C67FB084D40AC7D0F0775AEB87B8</GUID>
+      <GUID>A4CB3073D0916758AC00EC4C86B51E8A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1324,7 +1327,7 @@ Added Pipes</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Barrier Attr\Public VIs\Barrier Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4EAA059D65985D35941EA6BA79B16214</GUID>
+      <GUID>D0410FCEAD711BC7EC4FD66E74BBC2CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1527,7 +1530,7 @@ Added Pipes</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Mutex Attr\Public VIs\Mutex Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F7AB07B1168A19818B52B8EDAF8C59D</GUID>
+      <GUID>F1EB2BAD341565BD469A713FE0A8C8DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1674,7 +1677,7 @@ Added Pipes</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Cond Attr\Public VIs\Cond Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFF3421044C5D18175B22A9BA6588849</GUID>
+      <GUID>03F6FA256A6A74A9B5E0BC716C307CD4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1779,7 +1782,7 @@ Added Pipes</Release_Notes>
         <Path>..\Source\Pipes\VIs\Close Pipe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>19B7F7528630839AA77908A176D8A2AB</GUID>
+      <GUID>20743FBB1E52A2031DA2B9C0DE8344FA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

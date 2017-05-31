@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="13008000">
+	<Property Name="NI.Lib.ContainingLib" Type="Str">Linux RT IPC.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Linux RT IPC.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*&gt;!!!*Q(C=\:5R4G."$)&lt;`25CBD&lt;;(6;\AGA:3E4J8]!5IUK&lt;-&amp;6QBCGVS!Z1C64J@)?7WO5%%XZA*OR+)5#Q3"40RG`&gt;_D_XPT9R?J'JHUKE?D\8"O_UN@Y_KI8Y](9;[L.?6G;(]Z4U-,8!SQ&lt;&gt;OQ_PYQ80]J/9=YP_'$LJ`M^G][;]E_&amp;JD_!D`E@=`UP4&gt;PNP8&lt;P/DB`D4T`-0N1]2FFBADJF;O=&gt;%4`2%4`2%4`2!$`2!$`2!$X2(&gt;X2(&gt;X2(&gt;X2$.X2$.X2$.`4K[%)8ON""3IIHB:+E39*E-CB+,AF0QJ0Q*$Q]+O&amp;*?"+?B#@B99I3HI1HY5FY%B\#F0!E0!F0QJ0QE+J)MDI[0!E0[28Q"$Q"4]!4]&amp;"3!5]!%"1,%A&gt;*Q&amp;$A$'Y#HI!HY/&amp;7!5`!%`!%0!%0&lt;A5]!5`!%`!%0)45KE42N)Y/$WHE]$A]$I`$Y`#17A[0Q_0Q/$Q/$_8E]$A]$I24U%E/AJQA:Y,TY0!Y0!RS?"Q?B]@B=8BQV1ZZL5SD;2U&gt;(I0(Y$&amp;Y$"[$BR1S?!Q?A]@A-8B)+Y0(Y$&amp;Y$"[$BV)S?!Q?A]=!-9J38E9S)^#9:!A'$\][,6;\&amp;%6CV;6_?.50J@JB5T^%[I&gt;$@&gt;06.V.^E^188XV2V2&gt;,@2(58UY&gt;7BV'P9B[=*OI(&gt;=NNM+7W!+&lt;96.MD)WQ91P^TR.XOZWWW[V7KZ77S[57CY6GMZGGU[H'Y\&amp;'IZ''Q_(,:_!8`?7$]0R&gt;GH-`V`HFQ_X&gt;`P@.TT]0N_?8^V=8_`PLOXX4G`]4`W?`Q,&gt;2*`IX.WPU".T^C&amp;5!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -27,17 +29,12 @@
 		<Item Name="permissions group.ctl" Type="VI" URL="../Controls/permissions group.ctl"/>
 		<Item Name="permissions.ctl" Type="VI" URL="../Controls/permissions.ctl"/>
 	</Item>
-	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Error Handler.vi" Type="VI" URL="../SubVIs/Error Handler.vi"/>
-		<Item Name="OR flags.vi" Type="VI" URL="../SubVIs/OR flags.vi"/>
-		<Item Name="permission cluster to mode_t.vi" Type="VI" URL="../SubVIs/permission cluster to mode_t.vi"/>
-	</Item>
-	<Item Name="Test VIs" Type="Folder">
-		<Item Name="loopback cluster.vi" Type="VI" URL="../Test VIs/loopback cluster.vi"/>
-		<Item Name="loopback.vi" Type="VI" URL="../Test VIs/loopback.vi"/>
-		<Item Name="pipe writer.vi" Type="VI" URL="../Test VIs/pipe writer.vi"/>
-	</Item>
 	<Item Name="VIs" Type="Folder">
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Error Handler.vi" Type="VI" URL="../SubVIs/Error Handler.vi"/>
+			<Item Name="OR flags.vi" Type="VI" URL="../SubVIs/OR flags.vi"/>
+			<Item Name="permission cluster to mode_t.vi" Type="VI" URL="../SubVIs/permission cluster to mode_t.vi"/>
+		</Item>
 		<Item Name="Close Pipe.vi" Type="VI" URL="../VIs/Close Pipe.vi"/>
 		<Item Name="Create Pipe.vi" Type="VI" URL="../VIs/Create Pipe.vi"/>
 		<Item Name="Open Pipe.vi" Type="VI" URL="../VIs/Open Pipe.vi"/>

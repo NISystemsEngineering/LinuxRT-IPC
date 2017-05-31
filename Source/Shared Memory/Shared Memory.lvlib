@@ -39,6 +39,7 @@
 			<Item Name="Read Scalar U16.vi" Type="VI" URL="../Pointer Operations/Read Scalar U16.vi"/>
 			<Item Name="Read Scalar U32.vi" Type="VI" URL="../Pointer Operations/Read Scalar U32.vi"/>
 			<Item Name="Read Scalar U64.vi" Type="VI" URL="../Pointer Operations/Read Scalar U64.vi"/>
+			<Item Name="Read String.vi" Type="VI" URL="../Pointer Operations/Read String.vi"/>
 			<Item Name="Write 1D Array Boolean.vi" Type="VI" URL="../Pointer Operations/Write 1D Array Boolean.vi"/>
 			<Item Name="Write 1D Array DBL.vi" Type="VI" URL="../Pointer Operations/Write 1D Array DBL.vi"/>
 			<Item Name="Write 1D Array I8.vi" Type="VI" URL="../Pointer Operations/Write 1D Array I8.vi"/>
@@ -61,6 +62,7 @@
 			<Item Name="Write Scalar U16.vi" Type="VI" URL="../Pointer Operations/Write Scalar U16.vi"/>
 			<Item Name="Write Scalar U32.vi" Type="VI" URL="../Pointer Operations/Write Scalar U32.vi"/>
 			<Item Name="Write Scalar U64.vi" Type="VI" URL="../Pointer Operations/Write Scalar U64.vi"/>
+			<Item Name="Write String.vi" Type="VI" URL="../Pointer Operations/Write String.vi"/>
 		</Item>
 		<Item Name="Read Pointer.vi" Type="VI" URL="../Pointer Operations/Read Pointer.vi"/>
 		<Item Name="Write Pointer.vi" Type="VI" URL="../Pointer Operations/Write Pointer.vi"/>

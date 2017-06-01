@@ -15,7 +15,7 @@
 	</Item>
 	<Item Name="Linux RT CompactRIO" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">Linux RT CompactRIO</Property>
-		<Property Name="alias.value" Type="Str">192.168.1.10</Property>
+		<Property Name="alias.value" Type="Str">10.1.128.53</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,76D6;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76D6</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-06-01 10:45:49" Creator="Ryan" Comments="" ID="273a0dc8491382c77f7c20c083f8134c">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-06-01 14:04:17" Creator="Ryan" Comments="" ID="155cf0c8a48575dfac225e6d274b42fb">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NI_Linux_RT_IPC</Package_File_Name>
-    <Library_Version>1.2.3.11</Library_Version>
+    <Library_Version>1.3.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -35,7 +35,10 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://forums.ni.com/t5/Reference-Design-Content/NI-Linux-RT-Libraries/ta-p/3622838</URL>
-      <Release_Notes>1.2.3:
+      <Release_Notes>1.3.0:
+Restructured C dependencies (NOTE: This will likely break links to VIs, but it needed to be done for future upgrades).
+
+1.2.3:
 Added string read/write to Simple Shared Memory example.
 
 1.2.2:
@@ -152,6 +155,12 @@ Added Pipes.</Release_Notes>
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>Source/Linux RT IPC.lvlib</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Source/C</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -311,7 +320,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Pipes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D93B667CDDE92B076B209C1B1036EE59</GUID>
+      <GUID>3AFE660E7CB8B415650FFE277EB1D9A8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -343,7 +352,7 @@ Added Pipes.</Release_Notes>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Source\Shared Memory\Classes\Shared Memory\Public\VIs\Open Shared Memory File.vi</Path>
+        <Path>..\Source\Shared Memory\Classes\Shared Memory\VIs\Open Shared Memory File.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -357,7 +366,7 @@ Added Pipes.</Release_Notes>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Source\Shared Memory\Classes\Shared Memory\Public\VIs\Map Shared Memory.vi</Path>
+        <Path>..\Source\Shared Memory\Classes\Shared Memory\VIs\Map Shared Memory.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -371,7 +380,7 @@ Added Pipes.</Release_Notes>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Source\Shared Memory\Classes\Shared Memory\Public\VIs\Unmap Shared Memory.vi</Path>
+        <Path>..\Source\Shared Memory\Classes\Shared Memory\VIs\Unmap Shared Memory.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -385,7 +394,7 @@ Added Pipes.</Release_Notes>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Source\Shared Memory\Classes\Shared Memory\Public\VIs\Get Shared Memory Size.vi</Path>
+        <Path>..\Source\Shared Memory\Classes\Shared Memory\VIs\Get Shared Memory Size.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -399,7 +408,7 @@ Added Pipes.</Release_Notes>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Source\Shared Memory\Classes\Shared Memory\Public\VIs\Set Shared Memory Size.vi</Path>
+        <Path>..\Source\Shared Memory\Classes\Shared Memory\VIs\Set Shared Memory Size.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -441,7 +450,7 @@ Added Pipes.</Release_Notes>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Source\Shared Memory\Classes\Shared Memory\Public\VIs\Remove Shared Memory File.vi</Path>
+        <Path>..\Source\Shared Memory\Classes\Shared Memory\VIs\Remove Shared Memory File.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -455,7 +464,7 @@ Added Pipes.</Release_Notes>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Source\Shared Memory\Classes\Shared Memory\Public\VIs\Close Shared Memory File.vi</Path>
+        <Path>..\Source\Shared Memory\Classes\Shared Memory\VIs\Close Shared Memory File.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -483,10 +492,10 @@ Added Pipes.</Release_Notes>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Source\Shared Memory\Classes\Shared Memory\Public\VIs\Get System Page Size.vi</Path>
+        <Path>..\Source\Shared Memory\Classes\Shared Memory\VIs\Get System Page Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>947F42D7FDB1927295C90B7E15EEC6A0</GUID>
+      <GUID>A6175F38B1CC5D829DBA83E45B6A6FE6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -563,7 +572,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Barrier</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1606555CAA45643FA13DE58BBC48A49</GUID>
+      <GUID>E55C0CCFDA74E112CDE412A1B8AB4568</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -612,7 +621,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\Shared Memory\Templates\Initialize Shared Memory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5CB1A433C90106D1935842E9F441937B</GUID>
+      <GUID>EBBCEBAA5DB5A4A380CBA84F7BAC15B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -773,7 +782,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E766F0ACC2CF0B50E94EA07BDE4A60EC</GUID>
+      <GUID>F69824FD50FE6CCB4EB03B0E06411D37</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -962,7 +971,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED23CBF197E24A77DB655285FEA1435A</GUID>
+      <GUID>4D097FBFB4554DCD18FCBB50D1E0040B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1123,7 +1132,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Semaphore\Public VIs\Semaphore Timed Wait.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D4024C07EEAF460C3D80C22F9CFCBA7</GUID>
+      <GUID>8BCE1A796A8ED7783C856325B7CBE4F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1242,7 +1251,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Barrier\Public VIs\Barrier Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25E115815009358E9B76746FE7600556</GUID>
+      <GUID>0E08B78A42E92019DCF0FD992D82D645</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1361,7 +1370,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Barrier Attr\Public VIs\Barrier Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>31C60D469429D2751D4D9E7778F15759</GUID>
+      <GUID>204366097DFCB3EBD39FA038AAA9DC26</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1564,7 +1573,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Mutex Attr\Public VIs\Mutex Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>29A1050649F40A0FA6AFAAA34CAC37C2</GUID>
+      <GUID>30557280D53764D5EACC979F6E068FF7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1711,7 +1720,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Cond Attr\Public VIs\Cond Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6944D18E1399780D0A9C203ACF73B91</GUID>
+      <GUID>C52444E47CBABA51FAC53FBEF90BD6B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1816,7 +1825,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\Pipes\VIs\Close Pipe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7CEACF5578EF1402F44D20CE8814A699</GUID>
+      <GUID>E299984FEF8574D112C694B3C81E13AE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -15,10 +15,8 @@
 		<Item Name="Shared Memory.lvclass" Type="LVClass" URL="../Classes/Shared Memory/Shared Memory.lvclass"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
-		<Item Name="file mode.ctl" Type="VI" URL="../Classes/Shared Memory/Public/Controls/file mode.ctl"/>
-		<Item Name="mman sharing.ctl" Type="VI" URL="../Classes/Shared Memory/Public/Controls/mman sharing.ctl"/>
-		<Item Name="permissions group.ctl" Type="VI" URL="../Classes/Shared Memory/Public/Controls/permissions group.ctl"/>
-		<Item Name="permissions.ctl" Type="VI" URL="../Classes/Shared Memory/Public/Controls/permissions.ctl"/>
+		<Item Name="file mode.ctl" Type="VI" URL="../Controls/file mode.ctl"/>
+		<Item Name="reference.ctl" Type="VI" URL="../Controls/reference.ctl"/>
 	</Item>
 	<Item Name="Pointer Operations" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>

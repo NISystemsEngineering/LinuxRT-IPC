@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="C.lvlib" Type="Library" URL="../C/C.lvlib"/>
 	<Item Name="Pipes.lvlib" Type="Library" URL="../Pipes/Pipes.lvlib"/>
 	<Item Name="POSIX Threads.lvlib" Type="Library" URL="../POSIX Threads/POSIX Threads.lvlib"/>
 	<Item Name="Shared Memory.lvlib" Type="Library" URL="../Shared Memory/Shared Memory.lvlib"/>

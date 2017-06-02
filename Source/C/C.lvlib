@@ -20,7 +20,7 @@
 		<Item Name="Linux RT IPC.lvlib:Shared Memory.lvlib:Shared Memory.lvclass" Type="Friended Library" URL="../../Shared Memory/Classes/Shared Memory/Shared Memory.lvclass"/>
 	</Item>
 	<Item Name="C Functions" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="close.vi" Type="VI" URL="../C Functions/close.vi"/>
 		<Item Name="fstat.vi" Type="VI" URL="../C Functions/fstat.vi"/>
 		<Item Name="ftruncate.vi" Type="VI" URL="../C Functions/ftruncate.vi"/>
@@ -57,16 +57,13 @@
 			<Item Name="time_t_64.ctl" Type="VI" URL="../Controls/C Types/time_t_64.ctl"/>
 			<Item Name="uid_t.ctl" Type="VI" URL="../Controls/C Types/uid_t.ctl"/>
 		</Item>
-		<Item Name="Community" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-			<Item Name="fcntl-linux file modes.ctl" Type="VI" URL="../Controls/fcntl-linux file modes.ctl"/>
-		</Item>
 		<Item Name="Private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="functions.ctl" Type="VI" URL="../Controls/functions.ctl"/>
 		</Item>
 		<Item Name="Public" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="fcntl-linux file modes.ctl" Type="VI" URL="../Controls/fcntl-linux file modes.ctl"/>
 			<Item Name="mman sharing.ctl" Type="VI" URL="../Controls/mman sharing.ctl"/>
 			<Item Name="permissions group.ctl" Type="VI" URL="../Controls/permissions group.ctl"/>
 			<Item Name="permissions.ctl" Type="VI" URL="../Controls/permissions.ctl"/>

@@ -1,7 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="13008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">Linux RT IPC.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Linux RT IPC.lvlib</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">8e61e1fc-0ef7-4f93-ba04-5f47bea4bc62</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)7!!!*Q(C=\&gt;8"41-R%)8B"_,!.2WAN0!;Y*!&lt;Z\1Q,?4+-3V-#WEB,5Q,;3%NB.^GB$AA6AAC=9A&gt;*\P0;`NDVVKE72[F"VW7SMOXZ;@^#_?8_@GW`V@D&amp;]]8ZP_C@[(I6G\F@Z@8R5V]^@V]J`%CIB5N;5'TRH+8)C`S)C`S)C`S*%`S*%`S*%`S)!`S)!`S)!^SEZP=Z#9XO=FH*2?ZS%5/K6C]7+C9N*CAO"C+CK`#5XA+4_(B6)7H]"3?QF.YO%3&amp;J`!5HM*4?"CGQF.Y#E`B+4R-.35V+TG?QM0U3DS**`%EHM4$EEI]#3":,*EYG13'EM\E)0%EHM4$I2*0YEE]C3@RU+X%EXA34_**0!S:&gt;S7H:F2S0%SDQ".Y!E`A#4R-L=!4?!*0Y!E],+@!%XA#2,"A-$E%"9/##Y+4Q".Y_&amp;(A#4S"*`!%(LLG%YJZ:Y:G6()]RG-]RG-]RM-5-B\D-2\D-2[GF@%9D`%9D`'QF)T(?)T(1-SC,#]TG2FI,D+"]@#:O]8T+?75?&amp;;J.[^[5[IXGXI4K4?(_K'L([&lt;[);FPPPKGKG_7_C;I`TAV7IV2,[)?0#\5G?]4\5A\U0;U(7V,W^$7N.59_M=8HM^HH5YH(9^((1Y(\@&gt;\\89\&lt;&lt;&gt;&lt;&lt;49&lt;L&gt;&gt;LL6;LD^@!%`8DB@$_8HLF?,:2\Z^J?P]&gt;N@OO_(`W(\Q&lt;&gt;;`0=X/0XA$56X+8!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
@@ -11,13 +9,13 @@
 
 </Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="Linux RT IPC.lvlib:POSIX Threads.lvlib" Type="Friended Library" URL="../../POSIX Threads/POSIX Threads.lvlib"/>
-		<Item Name="Linux RT IPC.lvlib:Shared Memory.lvlib" Type="Friended Library" URL="../../Shared Memory/Shared Memory.lvlib"/>
-		<Item Name="Linux RT IPC.lvlib:Pipes.lvlib" Type="Friended Library" URL="../../Pipes/Pipes.lvlib"/>
-		<Item Name="Linux RT IPC.lvlib:Pipes.lvlib:Unix Pipe Reader.lvclass" Type="Friended Library" URL="../../Pipes/Classes/Unix Pipe Reader/Unix Pipe Reader.lvclass"/>
-		<Item Name="Linux RT IPC.lvlib:Pipes.lvlib:Unix Pipe Writer.lvclass" Type="Friended Library" URL="../../Pipes/Classes/Unix Pipe Writer/Unix Pipe Writer.lvclass"/>
-		<Item Name="Linux RT IPC.lvlib:Pipes.lvlib:Unix Pipe.lvclass" Type="Friended Library" URL="../../Pipes/Classes/Unix Pipe/Unix Pipe.lvclass"/>
-		<Item Name="Linux RT IPC.lvlib:Shared Memory.lvlib:Shared Memory.lvclass" Type="Friended Library" URL="../../Shared Memory/Classes/Shared Memory/Shared Memory.lvclass"/>
+		<Item Name="Linux RT IPC.POSIX Threads.lvlib" Type="Friended Library" URL="../../POSIX Threads/Linux RT IPC.POSIX Threads.lvlib"/>
+		<Item Name="Linux RT IPC.Shared Memory.lvlib" Type="Friended Library" URL="../../Shared Memory/Linux RT IPC.Shared Memory.lvlib"/>
+		<Item Name="Linux RT IPC.Pipes.lvlib" Type="Friended Library" URL="../../Pipes/Linux RT IPC.Pipes.lvlib"/>
+		<Item Name="Linux RT IPC.Pipes.lvlib:Unix Pipe Reader.lvclass" Type="Friended Library" URL="../../Pipes/Classes/Unix Pipe Reader/Unix Pipe Reader.lvclass"/>
+		<Item Name="Linux RT IPC.Pipes.lvlib:Unix Pipe Writer.lvclass" Type="Friended Library" URL="../../Pipes/Classes/Unix Pipe Writer/Unix Pipe Writer.lvclass"/>
+		<Item Name="Linux RT IPC.Pipes.lvlib:Unix Pipe.lvclass" Type="Friended Library" URL="../../Pipes/Classes/Unix Pipe/Unix Pipe.lvclass"/>
+		<Item Name="Linux RT IPC.Shared Memory.lvlib:Shared Memory.lvclass" Type="Friended Library" URL="../../Shared Memory/Classes/Shared Memory/Shared Memory.lvclass"/>
 	</Item>
 	<Item Name="C Functions" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>

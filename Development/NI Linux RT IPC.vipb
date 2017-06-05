@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-06-02 15:34:07" Creator="Ryan" Comments="" ID="13fea776f743d7ec2cf6a9b0c473983e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-06-05 15:58:13" Creator="Ryan" Comments="" ID="aa11aa18519b0e424ebd368e5349a50b">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NI_Linux_RT_IPC</Package_File_Name>
-    <Library_Version>1.3.3.16</Library_Version>
+    <Library_Version>1.3.4.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -35,7 +35,10 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://forums.ni.com/t5/Reference-Design-Content/NI-Linux-RT-Libraries/ta-p/3622838</URL>
-      <Release_Notes>1.3.3:
+      <Release_Notes>1.3.4:
+The library restructure performed in 1.3.0 had the unexpected side effect of causing dependency loops when unloading the libraries in certain situations. The libraries have been itemized out, which should also reduce the number of VIs required to be loaded at one time and prevent the dependency loop. This will require a VI re-link, but should be the last of the library-related changes.
+
+1.3.3:
 Corrected scope for new accessor methods added to Shared Memory.lvclass in version 1.3.0.
 
 1.3.2:
@@ -159,12 +162,6 @@ Added Pipes.</Release_Notes>
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>Source</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Source/Linux RT IPC.lvlib</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -330,7 +327,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Pipes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1685D25C17F346451142782C14B8EF1E</GUID>
+      <GUID>72154139022CD4C0E47ABE66CD46AE11</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -505,7 +502,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\Shared Memory\Classes\Shared Memory\VIs\Get System Page Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ECCAED0FE7C1AEEB75E7E8B79C776CD1</GUID>
+      <GUID>EDA65CD1BDE214269CFA9516D41B56CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -582,7 +579,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Barrier</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A5CADEE498821CA28C850DD5E074A8B</GUID>
+      <GUID>5B2C210F24C6B38EEB9910C83D857987</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -631,7 +628,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\Shared Memory\Templates\Initialize Shared Memory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8FE9D9571B3D2AFD8388765C95C59666</GUID>
+      <GUID>AB793B1D53DDCBF9CC48A8F7E06FA979</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -792,7 +789,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8111EB4736A809FDD07698EFE1B4E2E2</GUID>
+      <GUID>246BDB500F04CC4B57C3F7C540FBDFFF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -981,7 +978,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB47FA56D425A7F8144E64B767945A66</GUID>
+      <GUID>EB77C165560810AEFD1A788C2F004951</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1142,7 +1139,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Semaphore\Public VIs\Semaphore Timed Wait.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>44E3CEA71FF4BC23C0EC0AE9DB5DC9A0</GUID>
+      <GUID>9E29EAED5580C88C56229FD3515E041E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1261,7 +1258,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Barrier\Public VIs\Barrier Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>732D2A99DB4BA318BECE26BF2E4351C1</GUID>
+      <GUID>3D5843BD877A8F40C1A198B4F687DBF0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1380,7 +1377,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Barrier Attr\Public VIs\Barrier Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F0BE18608C220EE711594CF42A9DBB3C</GUID>
+      <GUID>33AEE96587F9A8176BAD3B32415A8A5E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1583,7 +1580,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Mutex Attr\Public VIs\Mutex Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A6FD2FCE1ADCCC02B03D96161BDF5F1</GUID>
+      <GUID>DAD0A1939B1738FC1BD244946FA5FCE5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1730,7 +1727,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Cond Attr\Public VIs\Cond Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D60B091E54155E3C423346BE5E3F2F30</GUID>
+      <GUID>93009F67EF2AE4E3651023F20C4E047B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1835,7 +1832,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\Pipes\VIs\Close Pipe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FA53D7230C233184F49309C31E2CBEB5</GUID>
+      <GUID>769F8777DF94BB432CFC2ED0F69E7747</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

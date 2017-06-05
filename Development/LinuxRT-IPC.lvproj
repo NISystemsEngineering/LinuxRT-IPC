@@ -95,6 +95,12 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Libraries" Type="Folder">
+			<Item Name="Linux RT IPC.C.lvlib" Type="Library" URL="../../Source/C/Linux RT IPC.C.lvlib"/>
+			<Item Name="Linux RT IPC.Pipes.lvlib" Type="Library" URL="../../Source/Pipes/Linux RT IPC.Pipes.lvlib"/>
+			<Item Name="Linux RT IPC.POSIX Threads.lvlib" Type="Library" URL="../../Source/POSIX Threads/Linux RT IPC.POSIX Threads.lvlib"/>
+			<Item Name="Linux RT IPC.Shared Memory.lvlib" Type="Library" URL="../../Source/Shared Memory/Linux RT IPC.Shared Memory.lvlib"/>
+		</Item>
 		<Item Name="Templates" Type="Folder">
 			<Item Name="Shared Memory" Type="Folder">
 				<Item Name="Basic Scalar Write-Read.vi" Type="VI" URL="../../Source/Shared Memory/Templates/Basic Scalar Write-Read.vi"/>
@@ -107,7 +113,6 @@ AddOutputFilter chunkFilter
 				<Item Name="pipe writer.vi" Type="VI" URL="../Testing/Pipes/pipe writer.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Linux RT IPC.lvlib" Type="Library" URL="../../Source/Linux RT IPC.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

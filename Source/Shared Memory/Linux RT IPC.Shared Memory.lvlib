@@ -1,7 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="13008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">Linux RT IPC.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Linux RT IPC.lvlib</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Library containing VIs for creating and interfacing with Linux shared memory.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*/!!!*Q(C=\&gt;5R;BN2%-&lt;RT]'&amp;O[!&lt;")%,VX-&amp;.;F3[1JT"65'E5K&amp;-3Z#9#!HU"6]!M.=16&gt;1FV,9`T=\C'"MKYH"B&gt;`K3;PP\=\\;@?REKJ&gt;3/&gt;[0.8OXWQPDF]@WT1_KP":&lt;[.@8VXVK];LR$2?L_@DUU&amp;4E;LRP([8@L6_4`,;_%H`G\``2..H_WQ@O[V0,O*X8]^H'A]C?N+$\H44G/YRS:-]S:-]S:-]S)-]S)-]S)0=S:X=S:X=S:X=S)X=S)X=S)W].H+2CVTEE*,*EYG3IEG"Z'!I3NY34_**0)G(LUI]C3@R**\%QS&amp;+0)EH]33?R-.J3DS**`%EHM2$K:*E&lt;?2Y%A`F&amp;8A#4_!*0)'(+26Y!E!Q76!Y+!*$Q7#Q%XA#4_"B6Y%H]!3?Q".Y'&amp;&lt;A#4S"*`!%(E[JKR+F'2MZ(ML)]4A?R_.Y(!_FZ8A=D_.R0)[([?2Y()_$=#:UCE/1=Z*TA00&amp;]4A?0O2Y()`D=4S/B['[1VZ8:GD'2I\(]"A?QW.Y$!]F:(A-D_%R0);(MD)]BM@Q'"\$QV1S0)&lt;(]"A19V+GFV(-/.%YS!A-$[^;,6:X+5JCN5G^?.7,5LX9V)N)P4D5.VV^-^5X38XRV2&gt;6@&lt;(5&amp;U(^Y^2I.59^C@LE=;$WP/`I^`1N@5.@U:@U"8V/HYV4``/"_`V?O^V/`&amp;&amp;KO^VKM^FIN6JJO6RKM6BI0J^L.JM&gt;(Q0@W)Y0B/GZN':`L;_(WV`@,_^_0VT?`0VR_-H_(`L)R`A\`M^_A'?DPOD@WFSD*_OXWH=!!!!!</Property>

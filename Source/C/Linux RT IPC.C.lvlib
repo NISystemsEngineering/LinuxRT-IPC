@@ -30,6 +30,9 @@
 		<Item Name="read.vi" Type="VI" URL="../C Functions/read.vi"/>
 		<Item Name="shm_open.vi" Type="VI" URL="../C Functions/shm_open.vi"/>
 		<Item Name="shm_unlink.vi" Type="VI" URL="../C Functions/shm_unlink.vi"/>
+		<Item Name="timerfd_create.vi" Type="VI" URL="../C Functions/timerfd_create.vi"/>
+		<Item Name="timerfd_gettime.vi" Type="VI" URL="../C Functions/timerfd_gettime.vi"/>
+		<Item Name="timerfd_settime.vi" Type="VI" URL="../C Functions/timerfd_settime.vi"/>
 		<Item Name="unlink.vi" Type="VI" URL="../C Functions/unlink.vi"/>
 		<Item Name="write.vi" Type="VI" URL="../C Functions/write.vi"/>
 	</Item>

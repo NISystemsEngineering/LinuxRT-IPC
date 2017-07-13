@@ -20,6 +20,9 @@
 	<Item Name="C Functions" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="close.vi" Type="VI" URL="../C Functions/close.vi"/>
+		<Item Name="epoll_create.vi" Type="VI" URL="../C Functions/epoll_create.vi"/>
+		<Item Name="epoll_ctl.vi" Type="VI" URL="../C Functions/epoll_ctl.vi"/>
+		<Item Name="epoll_wait.vi" Type="VI" URL="../C Functions/epoll_wait.vi"/>
 		<Item Name="fstat.vi" Type="VI" URL="../C Functions/fstat.vi"/>
 		<Item Name="ftruncate.vi" Type="VI" URL="../C Functions/ftruncate.vi"/>
 		<Item Name="getpagesize.vi" Type="VI" URL="../C Functions/getpagesize.vi"/>
@@ -64,6 +67,9 @@
 		</Item>
 		<Item Name="Public" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="epoll event struct.ctl" Type="VI" URL="../Controls/epoll event struct.ctl"/>
+			<Item Name="epoll events.ctl" Type="VI" URL="../Controls/epoll events.ctl"/>
+			<Item Name="epoll operations.ctl" Type="VI" URL="../Controls/epoll operations.ctl"/>
 			<Item Name="fcntl-linux file modes.ctl" Type="VI" URL="../Controls/fcntl-linux file modes.ctl"/>
 			<Item Name="mman sharing.ctl" Type="VI" URL="../Controls/mman sharing.ctl"/>
 			<Item Name="permissions group.ctl" Type="VI" URL="../Controls/permissions group.ctl"/>
@@ -74,6 +80,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="error handler.vi" Type="VI" URL="../SubVIs/error handler.vi"/>
 		<Item Name="librt path.vi" Type="VI" URL="../SubVIs/librt path.vi"/>
+		<Item Name="OR flags U32.vi" Type="VI" URL="../SubVIs/OR flags U32.vi"/>
 		<Item Name="OR flags.vi" Type="VI" URL="../SubVIs/OR flags.vi"/>
 		<Item Name="permission group to mode_t.vi" Type="VI" URL="../SubVIs/permission group to mode_t.vi"/>
 		<Item Name="stat 32 to stat 64.vi" Type="VI" URL="../SubVIs/stat 32 to stat 64.vi"/>

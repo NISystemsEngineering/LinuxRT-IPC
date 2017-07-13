@@ -70,19 +70,26 @@
 			<Item Name="epoll event struct.ctl" Type="VI" URL="../Controls/epoll event struct.ctl"/>
 			<Item Name="epoll events.ctl" Type="VI" URL="../Controls/epoll events.ctl"/>
 			<Item Name="epoll operations.ctl" Type="VI" URL="../Controls/epoll operations.ctl"/>
-			<Item Name="fcntl-linux file modes.ctl" Type="VI" URL="../Controls/fcntl-linux file modes.ctl"/>
+			<Item Name="file creation flags.ctl" Type="VI" URL="../Controls/file creation flags.ctl"/>
+			<Item Name="file status flags.ctl" Type="VI" URL="../Controls/file status flags.ctl"/>
 			<Item Name="mman sharing.ctl" Type="VI" URL="../Controls/mman sharing.ctl"/>
 			<Item Name="permissions group.ctl" Type="VI" URL="../Controls/permissions group.ctl"/>
 			<Item Name="permissions.ctl" Type="VI" URL="../Controls/permissions.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="error handler.vi" Type="VI" URL="../SubVIs/error handler.vi"/>
-		<Item Name="librt path.vi" Type="VI" URL="../SubVIs/librt path.vi"/>
-		<Item Name="OR flags U32.vi" Type="VI" URL="../SubVIs/OR flags U32.vi"/>
-		<Item Name="OR flags.vi" Type="VI" URL="../SubVIs/OR flags.vi"/>
-		<Item Name="permission group to mode_t.vi" Type="VI" URL="../SubVIs/permission group to mode_t.vi"/>
-		<Item Name="stat 32 to stat 64.vi" Type="VI" URL="../SubVIs/stat 32 to stat 64.vi"/>
+		<Item Name="Private" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="error handler.vi" Type="VI" URL="../SubVIs/error handler.vi"/>
+			<Item Name="librt path.vi" Type="VI" URL="../SubVIs/librt path.vi"/>
+			<Item Name="OR flags U32.vi" Type="VI" URL="../SubVIs/OR flags U32.vi"/>
+			<Item Name="OR flags.vi" Type="VI" URL="../SubVIs/OR flags.vi"/>
+			<Item Name="permission group to mode_t.vi" Type="VI" URL="../SubVIs/permission group to mode_t.vi"/>
+			<Item Name="stat 32 to stat 64.vi" Type="VI" URL="../SubVIs/stat 32 to stat 64.vi"/>
+		</Item>
+		<Item Name="Public" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="check for try again.vi" Type="VI" URL="../SubVIs/check for try again.vi"/>
+		</Item>
 	</Item>
 </Library>

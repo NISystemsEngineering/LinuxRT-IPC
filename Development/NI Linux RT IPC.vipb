@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-06-05 15:58:13" Creator="Ryan" Comments="" ID="aa11aa18519b0e424ebd368e5349a50b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-07-14 11:59:01" Creator="Ryan" Comments="" ID="447e75c0cb3f44ff2cb50adacc07da3d">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NI_Linux_RT_IPC</Package_File_Name>
-    <Library_Version>1.3.4.17</Library_Version>
+    <Library_Version>1.4.0.18</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -35,7 +35,11 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://forums.ni.com/t5/Reference-Design-Content/NI-Linux-RT-Libraries/ta-p/3622838</URL>
-      <Release_Notes>1.3.4:
+      <Release_Notes>1.4.0:
+Updated Pipes library to include timeout capability for pipe reads using epoll and timerfd implementations (infinite wait is still the default behavior).
+Cleaned up and simplified certain C functions.
+
+1.3.4:
 The library restructure performed in 1.3.0 had the unexpected side effect of causing dependency loops when unloading the libraries in certain situations. The libraries have been itemized out, which should also reduce the number of VIs required to be loaded at one time and prevent the dependency loop. This will require a VI re-link, but should be the last of the library-related changes.
 
 1.3.3:
@@ -327,7 +331,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Pipes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>72154139022CD4C0E47ABE66CD46AE11</GUID>
+      <GUID>96409FA0C2DB9AB7F822BB93BEAC29D0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -502,7 +506,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\Shared Memory\Classes\Shared Memory\VIs\Get System Page Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EDA65CD1BDE214269CFA9516D41B56CB</GUID>
+      <GUID>970AD1332528D257D80F18FBC021FEDB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -579,7 +583,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Barrier</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B2C210F24C6B38EEB9910C83D857987</GUID>
+      <GUID>F692069D114A62EE9F4138EC8AAFB085</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -628,7 +632,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\Shared Memory\Templates\Initialize Shared Memory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB793B1D53DDCBF9CC48A8F7E06FA979</GUID>
+      <GUID>7E66969298CD9B27E727BFE98F60BB07</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -789,7 +793,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>246BDB500F04CC4B57C3F7C540FBDFFF</GUID>
+      <GUID>6AB2AB9819A0C3935AE808D804D3959E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -978,7 +982,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB77C165560810AEFD1A788C2F004951</GUID>
+      <GUID>30711B2BA4C6AD0E30D3B8CED682C35C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1139,7 +1143,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Semaphore\Public VIs\Semaphore Timed Wait.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E29EAED5580C88C56229FD3515E041E</GUID>
+      <GUID>3F1F23F11045206474D10DBB96797DE5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1258,7 +1262,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Barrier\Public VIs\Barrier Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3D5843BD877A8F40C1A198B4F687DBF0</GUID>
+      <GUID>02F970B9213528085532C1BAE0882F13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1377,7 +1381,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Barrier Attr\Public VIs\Barrier Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>33AEE96587F9A8176BAD3B32415A8A5E</GUID>
+      <GUID>335C7F7AEAAADA6E65848E4697A6D39D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1580,7 +1584,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Mutex Attr\Public VIs\Mutex Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DAD0A1939B1738FC1BD244946FA5FCE5</GUID>
+      <GUID>06ED98EB5D93351F3724FE1CEFB9E527</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1727,7 +1731,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Cond Attr\Public VIs\Cond Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>93009F67EF2AE4E3651023F20C4E047B</GUID>
+      <GUID>70CFB07B34B125D08BD96C6DCE8344F6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1832,7 +1836,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\Pipes\VIs\Close Pipe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>769F8777DF94BB432CFC2ED0F69E7747</GUID>
+      <GUID>FEBA764F1913FC3CE715DB370E07F59E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

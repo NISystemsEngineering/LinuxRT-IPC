@@ -96,10 +96,10 @@
 	<Item Name="Read.vi" Type="VI" URL="../Read.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'5!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%5!$!!JC?82F=S"S:7&amp;E!!!/1$$`````"'2B&gt;'%!!%J!=!!?!!!T'%RJ&lt;H6Y)&amp;*5)%F11SZ1;8"F=SZM&gt;GRJ9BB6&lt;GFY)&amp;"J='5A5G6B:'6S,GRW9WRB=X-!$66O;8AA5'FQ:3"P&gt;81!'U"Q!#!!!1!'!!^Q;8"F)(*F972F=C"P&gt;81!%%!B#H2J&lt;76E)'^V&gt;$]!!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!".!!Q!.9HFU:8-A&gt;']A=G6B:!!61!1!$X2J&lt;76P&gt;81A&gt;8-A+#UR+1!&lt;1(!!)!!"!!9!$H"J='5A=G6B:'6S)'FO!!"5!0!!$!!$!!1!"1!(!!A!#1!*!!E!#A!,!!Q!$1-!!(A!!!U)!!!*!!!!#1!!!!U,!!!*!!!!!!!!!!!!!!!!!!!!#A!!!"!!!!!)!!!!%!!!!!!"!!Y!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 	</Item>
 </LVClass>

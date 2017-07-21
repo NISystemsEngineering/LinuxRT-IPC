@@ -18,6 +18,19 @@
 	</Item>
 	<Item Name="Pointer Operations" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="In Place Polymorphic Instance VIs" Type="Folder">
+			<Item Name="In Place Read 1D Array Boolean.vi" Type="VI" URL="../Pointer Operations/In Place Read 1D Array Boolean.vi"/>
+			<Item Name="In Place Read 1D Array DBL.vi" Type="VI" URL="../Pointer Operations/In Place Read 1D Array DBL.vi"/>
+			<Item Name="In Place Read 1D Array I8.vi" Type="VI" URL="../Pointer Operations/In Place Read 1D Array I8.vi"/>
+			<Item Name="In Place Read 1D Array I16.vi" Type="VI" URL="../Pointer Operations/In Place Read 1D Array I16.vi"/>
+			<Item Name="In Place Read 1D Array I32.vi" Type="VI" URL="../Pointer Operations/In Place Read 1D Array I32.vi"/>
+			<Item Name="In Place Read 1D Array I64.vi" Type="VI" URL="../Pointer Operations/In Place Read 1D Array I64.vi"/>
+			<Item Name="In Place Read 1D Array SGL.vi" Type="VI" URL="../Pointer Operations/In Place Read 1D Array SGL.vi"/>
+			<Item Name="In Place Read 1D Array U8.vi" Type="VI" URL="../Pointer Operations/In Place Read 1D Array U8.vi"/>
+			<Item Name="In Place Read 1D Array U16.vi" Type="VI" URL="../Pointer Operations/In Place Read 1D Array U16.vi"/>
+			<Item Name="In Place Read 1D Array U32.vi" Type="VI" URL="../Pointer Operations/In Place Read 1D Array U32.vi"/>
+			<Item Name="In Place Read 1D Array U64.vi" Type="VI" URL="../Pointer Operations/In Place Read 1D Array U64.vi"/>
+		</Item>
 		<Item Name="Polymorphic Instance VIs" Type="Folder">
 			<Item Name="Read 1D Array Boolean.vi" Type="VI" URL="../Pointer Operations/Read 1D Array Boolean.vi"/>
 			<Item Name="Read 1D Array DBL.vi" Type="VI" URL="../Pointer Operations/Read 1D Array DBL.vi"/>

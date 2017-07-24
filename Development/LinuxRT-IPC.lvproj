@@ -116,6 +116,9 @@ AddOutputFilter chunkFilter
 				<Item Name="loopback cluster.vi" Type="VI" URL="../Testing/Pipes/loopback cluster.vi"/>
 				<Item Name="pipe writer.vi" Type="VI" URL="../Testing/Pipes/pipe writer.vi"/>
 			</Item>
+			<Item Name="Shared Memory" Type="Folder">
+				<Item Name="Array Test.vi" Type="VI" URL="../Testing/Shared Memory/Array Test.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

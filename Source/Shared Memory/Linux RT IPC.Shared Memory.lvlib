@@ -41,6 +41,17 @@
 			<Item Name="In Place Read Scalar U16.vi" Type="VI" URL="../Pointer Operations/In Place Read Scalar U16.vi"/>
 			<Item Name="In Place Read Scalar U32.vi" Type="VI" URL="../Pointer Operations/In Place Read Scalar U32.vi"/>
 			<Item Name="In Place Read Scalar U64.vi" Type="VI" URL="../Pointer Operations/In Place Read Scalar U64.vi"/>
+			<Item Name="In Place Write 1D Array Boolean.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array Boolean.vi"/>
+			<Item Name="In Place Write 1D Array DBL.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array DBL.vi"/>
+			<Item Name="In Place Write 1D Array I8.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array I8.vi"/>
+			<Item Name="In Place Write 1D Array I16.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array I16.vi"/>
+			<Item Name="In Place Write 1D Array I32.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array I32.vi"/>
+			<Item Name="In Place Write 1D Array I64.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array I64.vi"/>
+			<Item Name="In Place Write 1D Array SGL.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array SGL.vi"/>
+			<Item Name="In Place Write 1D Array U8.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array U8.vi"/>
+			<Item Name="In Place Write 1D Array U16.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array U16.vi"/>
+			<Item Name="In Place Write 1D Array U32.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array U32.vi"/>
+			<Item Name="In Place Write 1D Array U64.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array U64.vi"/>
 		</Item>
 		<Item Name="Polymorphic Instance VIs" Type="Folder">
 			<Item Name="Read 1D Array Boolean.vi" Type="VI" URL="../Pointer Operations/Read 1D Array Boolean.vi"/>
@@ -91,6 +102,7 @@
 			<Item Name="Write String.vi" Type="VI" URL="../Pointer Operations/Write String.vi"/>
 		</Item>
 		<Item Name="In Place Read Pointer.vi" Type="VI" URL="../Pointer Operations/In Place Read Pointer.vi"/>
+		<Item Name="In Place Write Pointer.vi" Type="VI" URL="../Pointer Operations/In Place Write Pointer.vi"/>
 		<Item Name="Read Pointer.vi" Type="VI" URL="../Pointer Operations/Read Pointer.vi"/>
 		<Item Name="Write Pointer.vi" Type="VI" URL="../Pointer Operations/Write Pointer.vi"/>
 	</Item>

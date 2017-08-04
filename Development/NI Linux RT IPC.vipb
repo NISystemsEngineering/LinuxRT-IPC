@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-07-14 11:59:01" Creator="Ryan" Comments="" ID="447e75c0cb3f44ff2cb50adacc07da3d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-08-04 15:54:43" Creator="Ryan" Comments="" ID="af857a0832498d0a0a0c80ded3e8eadd">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NI_Linux_RT_IPC</Package_File_Name>
-    <Library_Version>1.4.0.18</Library_Version>
+    <Library_Version>1.5.1.20</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -35,7 +35,17 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://forums.ni.com/t5/Reference-Design-Content/NI-Linux-RT-Libraries/ta-p/3622838</URL>
-      <Release_Notes>1.4.0:
+      <Release_Notes>1.5.1:
+Added "in place" read/write VIs for Pipes.
+Consolidated shared memory pointer VIs to reduce redundant code.
+Added in place string read/write.
+
+1.5.0:
+Added "in place" read/write VIs for shared memory to better support RT applications.
+Added start index output terminals for shared memory read VIs.
+Cleaned up shared memory read/write icons.
+
+1.4.0:
 Updated Pipes library to include timeout capability for pipe reads using epoll and timerfd implementations (infinite wait is still the default behavior).
 Cleaned up and simplified certain C functions.
 
@@ -331,7 +341,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Pipes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96409FA0C2DB9AB7F822BB93BEAC29D0</GUID>
+      <GUID>8B33C34C149050905C9DE2DB7E7BD641</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -425,34 +435,6 @@ Added Pipes.</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Pointer.vi</NameSub_Menu_Name>
-        <Short_Name>Read</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Source\Shared Memory\Pointer Operations\Read Pointer.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Pointer.vi</NameSub_Menu_Name>
-        <Short_Name>Write</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Source\Shared Memory\Pointer Operations\Write Pointer.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Remove Shared Memory File.vi</NameSub_Menu_Name>
         <Short_Name>Remove</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
@@ -495,18 +477,74 @@ Added Pipes.</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Pointer.vi</NameSub_Menu_Name>
+        <Short_Name>Read</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\Shared Memory\Pointer Operations\Read Pointer.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write Pointer.vi</NameSub_Menu_Name>
+        <Short_Name>Write</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\Shared Memory\Pointer Operations\Write Pointer.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Get System Page Size.vi</NameSub_Menu_Name>
         <Short_Name>Page Size</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>5</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Source\Shared Memory\Classes\Shared Memory\VIs\Get System Page Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>970AD1332528D257D80F18FBC021FEDB</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>In Place Read Pointer.vi</NameSub_Menu_Name>
+        <Short_Name>In Place Read</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\Shared Memory\Pointer Operations\In Place Read Pointer.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>In Place Write Pointer.vi</NameSub_Menu_Name>
+        <Short_Name>In Place Write</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\Shared Memory\Pointer Operations\In Place Write Pointer.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>6507AD62652ADCA97746968340DFB344</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -583,7 +621,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Barrier</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F692069D114A62EE9F4138EC8AAFB085</GUID>
+      <GUID>77542078918050A1BE99C1380CC6DE3E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -632,7 +670,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\Shared Memory\Templates\Initialize Shared Memory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E66969298CD9B27E727BFE98F60BB07</GUID>
+      <GUID>602CFBDCC73C104B8E162F0B678E453E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -793,7 +831,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6AB2AB9819A0C3935AE808D804D3959E</GUID>
+      <GUID>2E64F62CA3B3D5AE6A3247EAB8EF6C0C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -982,7 +1020,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30711B2BA4C6AD0E30D3B8CED682C35C</GUID>
+      <GUID>D6AB31B83647BD5988B10524C06D3023</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1143,7 +1181,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Semaphore\Public VIs\Semaphore Timed Wait.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F1F23F11045206474D10DBB96797DE5</GUID>
+      <GUID>1073456A36B0E20AE8A93C653C960688</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1262,7 +1300,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Barrier\Public VIs\Barrier Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02F970B9213528085532C1BAE0882F13</GUID>
+      <GUID>22A326DD7A3CCEBCDEE9E0A2DCD48F0B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1381,7 +1419,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Barrier Attr\Public VIs\Barrier Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>335C7F7AEAAADA6E65848E4697A6D39D</GUID>
+      <GUID>16736B838A39B3458A76CF84348AE7B8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1584,7 +1622,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Mutex Attr\Public VIs\Mutex Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>06ED98EB5D93351F3724FE1CEFB9E527</GUID>
+      <GUID>3D1436925377F0BA3A139DA81DE0CE0C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1731,7 +1769,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Cond Attr\Public VIs\Cond Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>70CFB07B34B125D08BD96C6DCE8344F6</GUID>
+      <GUID>02623FFA9143E3E9EF69CA27E897B5B3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1783,40 +1821,12 @@ Added Pipes.</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Source\Pipes\Classes\Unix Pipe Reader\Read.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Source\Pipes\Classes\Unix Pipe Writer\Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Open Pipe.vi</NameSub_Menu_Name>
         <Short_Name>Open</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
-          <Column>1</Column>
+          <Row>1</Row>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Source\Pipes\VIs\Open Pipe.vi</Path>
@@ -1829,14 +1839,56 @@ Added Pipes.</Release_Notes>
         <Short_Name>Close</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
-          <Column>2</Column>
+          <Row>1</Row>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Source\Pipes\VIs\Close Pipe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEBA764F1913FC3CE715DB370E07F59E</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\Pipes\Classes\Unix Pipe Writer\Write.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\Pipes\Classes\Unix Pipe Reader\Read.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read (In Place).vi</NameSub_Menu_Name>
+        <Short_Name>In Place Read</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\Pipes\Classes\Unix Pipe Reader\Read (In Place).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>23C99411A973DC46991EC03F3F10CB7E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -30,6 +30,7 @@
 		<Item Name="mmap.vi" Type="VI" URL="../C Functions/mmap.vi"/>
 		<Item Name="munmap.vi" Type="VI" URL="../C Functions/munmap.vi"/>
 		<Item Name="open.vi" Type="VI" URL="../C Functions/open.vi"/>
+		<Item Name="read (in place).vi" Type="VI" URL="../C Functions/read (in place).vi"/>
 		<Item Name="read.vi" Type="VI" URL="../C Functions/read.vi"/>
 		<Item Name="shm_open.vi" Type="VI" URL="../C Functions/shm_open.vi"/>
 		<Item Name="shm_unlink.vi" Type="VI" URL="../C Functions/shm_unlink.vi"/>

@@ -113,6 +113,7 @@ AddOutputFilter chunkFilter
 				<Item Name="timerfd test.vi" Type="VI" URL="../Testing/C/timerfd test.vi"/>
 			</Item>
 			<Item Name="Pipes" Type="Folder">
+				<Item Name="loopback cluster (in place).vi" Type="VI" URL="../Testing/Pipes/loopback cluster (in place).vi"/>
 				<Item Name="loopback cluster.vi" Type="VI" URL="../Testing/Pipes/loopback cluster.vi"/>
 				<Item Name="pipe writer.vi" Type="VI" URL="../Testing/Pipes/pipe writer.vi"/>
 			</Item>

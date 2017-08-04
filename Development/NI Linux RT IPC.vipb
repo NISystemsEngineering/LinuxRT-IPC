@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-07-24 12:18:34" Creator="Ryan" Comments="" ID="f3907141ebe4388f1380ccb445b451de">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-16 16:02:39" Modified_Date="2017-08-04 11:43:51" Creator="Ryan" Comments="" ID="6466fa558647914b079dfb6dfd137c22">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NI_Linux_RT_IPC</Package_File_Name>
     <Library_Version>1.5.0.19</Library_Version>
@@ -336,7 +336,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Pipes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B32282EC6BD1BA7DD92C7A6FB65DAE06</GUID>
+      <GUID>893BEA173A3567B61B50E27D37FF148A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -539,7 +539,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\Shared Memory\Pointer Operations\In Place Write Pointer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>486A8370CC71508C59ACAD6F159AB63B</GUID>
+      <GUID>58522D2F6C82E964040598C6F1A9045A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -616,7 +616,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Barrier</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>91108BEB9A17B42C7C9C976D0DE2C37A</GUID>
+      <GUID>9803B0ED1714EA53F1AAFEE34810D144</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -665,7 +665,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\Shared Memory\Templates\Initialize Shared Memory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A28851407A7CD3085624B5E3E73999E4</GUID>
+      <GUID>4A72F7970EFC27ACAC2DA93640A5BD3D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -826,7 +826,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>540A27155744756D8EB79EBECB4DBB7E</GUID>
+      <GUID>F1328DAFEC616B150D7EC09F709C5D6B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1015,7 +1015,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Attributes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3D09B896606A08A18A4F14C58612C427</GUID>
+      <GUID>02B5F6B18932448D6AEE54DE9DC8975E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1176,7 +1176,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Semaphore\Public VIs\Semaphore Timed Wait.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F2FB8024A69F43114F20178A34C36913</GUID>
+      <GUID>F48BBEF897F5A331EB2576FC2A6E9877</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1295,7 +1295,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Barrier\Public VIs\Barrier Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1C7C5C8DE14C320E26E1E03D75D8D6C</GUID>
+      <GUID>CBF29F7736D141D7CAD59F85FB5CEBE4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1414,7 +1414,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Barrier Attr\Public VIs\Barrier Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8700288881F0AF3F37E8C25CE7DBB08E</GUID>
+      <GUID>004DD5AE0AE014B3A80F227592FA2819</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1617,7 +1617,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Mutex Attr\Public VIs\Mutex Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F659A5BE5A854A2142ED731D8B67E13</GUID>
+      <GUID>C47FB76B3E3887BACCC0B7AD9F5BEDD7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1764,7 +1764,7 @@ Added Pipes.</Release_Notes>
         <Path>..\Source\POSIX Threads\Classes\Cond Attr\Public VIs\Cond Attr Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B39C02BCD30807852D81C27A9226EE6</GUID>
+      <GUID>2D43C2D21AE65A68ED3392A9BCAADA6A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1816,40 +1816,12 @@ Added Pipes.</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Source\Pipes\Classes\Unix Pipe Reader\Read.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Source\Pipes\Classes\Unix Pipe Writer\Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Open Pipe.vi</NameSub_Menu_Name>
         <Short_Name>Open</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
-          <Column>1</Column>
+          <Row>1</Row>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Source\Pipes\VIs\Open Pipe.vi</Path>
@@ -1862,14 +1834,56 @@ Added Pipes.</Release_Notes>
         <Short_Name>Close</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
-          <Column>2</Column>
+          <Row>1</Row>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Source\Pipes\VIs\Close Pipe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E2C0E796CF44BC9088C70AB45D475F3</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\Pipes\Classes\Unix Pipe Writer\Write.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\Pipes\Classes\Unix Pipe Reader\Read.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read (In Place).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\Pipes\Classes\Unix Pipe Reader\Read (In Place).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>430B8861BFBA14DE5CDDF7487B1FDF0A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

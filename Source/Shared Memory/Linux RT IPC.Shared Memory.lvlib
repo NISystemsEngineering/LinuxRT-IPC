@@ -41,6 +41,7 @@
 			<Item Name="In Place Read Scalar U16.vi" Type="VI" URL="../Pointer Operations/In Place Read Scalar U16.vi"/>
 			<Item Name="In Place Read Scalar U32.vi" Type="VI" URL="../Pointer Operations/In Place Read Scalar U32.vi"/>
 			<Item Name="In Place Read Scalar U64.vi" Type="VI" URL="../Pointer Operations/In Place Read Scalar U64.vi"/>
+			<Item Name="In Place Read String.vi" Type="VI" URL="../Pointer Operations/In Place Read String.vi"/>
 			<Item Name="In Place Write 1D Array Boolean.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array Boolean.vi"/>
 			<Item Name="In Place Write 1D Array DBL.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array DBL.vi"/>
 			<Item Name="In Place Write 1D Array I8.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array I8.vi"/>
@@ -52,6 +53,7 @@
 			<Item Name="In Place Write 1D Array U16.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array U16.vi"/>
 			<Item Name="In Place Write 1D Array U32.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array U32.vi"/>
 			<Item Name="In Place Write 1D Array U64.vi" Type="VI" URL="../Pointer Operations/In Place Write 1D Array U64.vi"/>
+			<Item Name="In Place Write String.vi" Type="VI" URL="../Pointer Operations/In Place Write String.vi"/>
 		</Item>
 		<Item Name="Polymorphic Instance VIs" Type="Folder">
 			<Item Name="Read 1D Array Boolean.vi" Type="VI" URL="../Pointer Operations/Read 1D Array Boolean.vi"/>

@@ -82,14 +82,14 @@
 		<Item Name="Private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="error handler.vi" Type="VI" URL="../SubVIs/error handler.vi"/>
-			<Item Name="OR flags U32.vi" Type="VI" URL="../SubVIs/OR flags U32.vi"/>
-			<Item Name="path globals.vi" Type="VI" URL="../SubVIs/path globals.vi"/>
-			<Item Name="permission group to mode_t.vi" Type="VI" URL="../SubVIs/permission group to mode_t.vi"/>
-			<Item Name="stat 32 to stat 64.vi" Type="VI" URL="../SubVIs/stat 32 to stat 64.vi"/>
 		</Item>
 		<Item Name="Public" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="check for try again.vi" Type="VI" URL="../SubVIs/check for try again.vi"/>
+			<Item Name="OR flags U32.vi" Type="VI" URL="../SubVIs/OR flags U32.vi"/>
+			<Item Name="path globals.vi" Type="VI" URL="../SubVIs/path globals.vi"/>
+			<Item Name="permission group to mode_t.vi" Type="VI" URL="../SubVIs/permission group to mode_t.vi"/>
+			<Item Name="stat 32 to stat 64.vi" Type="VI" URL="../SubVIs/stat 32 to stat 64.vi"/>
 		</Item>
 	</Item>
 </Library>

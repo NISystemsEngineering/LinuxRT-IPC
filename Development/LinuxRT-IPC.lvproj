@@ -236,6 +236,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Array Test.vi" Type="VI" URL="../Testing/Shared Memory/Array Test.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
 		<Item Name="NI Linux RT IPC.vipb" Type="Document" URL="../NI Linux RT IPC.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

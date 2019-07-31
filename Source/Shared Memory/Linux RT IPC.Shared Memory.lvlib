@@ -10,6 +10,7 @@
 
 </Property>
 	<Item Name="Classes" Type="Folder">
+		<Item Name="Shared Memory Pointer.lvclass" Type="LVClass" URL="../Classes/Pointer/Shared Memory Pointer.lvclass"/>
 		<Item Name="Shared Memory.lvclass" Type="LVClass" URL="../Classes/Shared Memory/Shared Memory.lvclass"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
